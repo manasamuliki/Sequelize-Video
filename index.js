@@ -38,10 +38,10 @@ const User = sequelize.define('user', {
 
  return User.findByPk(4)
  }).then((data) => {
-        console.log(data.toJSON())
+        console.log(data.toJSON());
     
  }).catch((err) => {
-    console.log(err)
+    console.log(err);
  })
  
  
